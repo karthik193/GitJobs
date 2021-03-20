@@ -1,13 +1,12 @@
 body {
-  font-family:apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; 
+  font-family: sans-serif, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.row{
-  display:flex ; 
-  justify-content: flex-start;
-  height : 100%;
+.row{ 
+  width :100% ; 
+  height : 100%;   
 }
-#col1{ float : left ; width : 30% ;  }
-#col2 { float :left ; width :70% ;  }
+#col1{ float : left ; width : 300px ;  height :100% ;position :fixed ;      }
+.col2 { float :left ; background-color : transparent ; width :70%;  margin-left :400px ; display : flex ; justify-content:space-evenly;}
 .Title{
   float : left ;
   width :200px; 
@@ -44,7 +43,7 @@ ul li{
 }
 
 .Tab{
-  width: 200px; 
+  width: 420px; 
   height :250px; 
   padding: 10px;
   margin:10px; 
@@ -53,4 +52,9 @@ ul li{
 .BoxShadow
 {
     box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+.logo { 
+  width:auto;
+  height: 50px;
+  max-width:300px ; 
 }
