@@ -66,7 +66,7 @@ function App() {
         </div>
         <div  className="Search">
           <form onSubmit={manageSearch}>
-            <div><input type = "text" className ='SearchBar' name = 'description'  onChange = {manageChange}></input></div>
+            <div><input type = "text" className ='SearchBar' name = 'description'  onChange = {manageChange} placeholder = 'search'></input></div>
             <div><input type = "text" className ='SearchBar' name = 'location' placeholder= 'Location' onChange = {manageChange}></input></div>
             <div style = {{padding : '10px'}}><p>Full Time</p><input name = "Full_Time" type = "checkBox" onChange = {manageChange}/></div>  
             <button className ='handy' type = 'submit' style = {{margin:"10px"}} >Search</button>        
